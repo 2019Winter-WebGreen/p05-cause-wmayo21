@@ -1,0 +1,89 @@
+/*
+*Wendy Mayo
+*5/17/19
+*Save the Pandas and Project
+*/
+
+/* The universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Body attributes here */
+body {
+    font-family: sans-serif, serif,cursive;
+    margin: 80px;
+    background-color: antiquewhite;
+    color: cornflowerblue;
+}
+
+header{
+    font-family: monospace;
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 25pt;
+    margin: 2em;
+    padding: 1em;
+    border-bottom: 2px solid orange;
+}/*The title should only be effected */
+
+h2 {
+    font-family: monospace;
+    font-size: 20pt;
+}/* All h2 should be effected */
+
+main{
+    font-size: 15pt;
+    border-bottom: 2px solid orange;
+}/* Should effect everything in main */
+
+#P1{
+    width:360px; height: 300px;
+    float: left;
+    margin: 15px;
+    border: 3px solid darkblue;
+}/*Should effect only the first picture */
+
+p{
+    margin: 1em;
+}/* Should effect all paragraphs */
+
+.P2{
+    width:170px; height: 170px;
+    margin: 1em;
+    border: 3px solid darkblue;
+    display: inline-block;
+    text-align: center;
+}/* Should effect the whole string of 5 picture in between paragraphs */
+
+#C{
+    margin: 1em;
+} /*Should effect only the Conservation heading  */
+
+.P3{
+    float: right;
+    width:100%px; height:100%;
+    border: 3px solid darkblue;
+    margin: 1em;
+}/* Should effect the two pics at the bottom */
+
+footer{
+    color: palevioletred;
+}/* Should effect the color of the words */
+
+a:link{
+    color: palevioletred;
+}/* Should effect the links color */
+a:hover, a:focus
+{
+    color:magenta;
+    font-size: 150%;
+}/* when hovered or focused over it will get bigger and change colors */
+
+#Last{
+    margin-left: 41em;
+}/* Should effect the last sentence at the bottom */
+
+ul, li {
+    list-style-position: inside;
+}/* Should effect the the list at the bottom */
